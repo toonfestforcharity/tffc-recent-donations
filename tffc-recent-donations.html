@@ -69,6 +69,9 @@
           if (typeof displayName === 'undefined') {
             displayName = '<i>Someone</i>'
           }
+          if (typeof amount === 'undefined') {
+            amount = '?'
+          }
           nameCell.classList.add('displayName')
           amountCell.classList.add('amount')
           if (i === highestDonationIndex) {

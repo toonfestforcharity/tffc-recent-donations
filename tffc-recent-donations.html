@@ -66,10 +66,10 @@
           const newTableRow = document.createElement('tr')
           const nameCell = document.createElement('td')
           const amountCell = document.createElement('td')
-          if (typeof displayName === 'undefined') {
+          if (displayName === undefined) {
             displayName = '<i>Someone</i>'
           }
-          if (typeof amount === 'undefined') {
+          if (amount === undefined) {
             amount = '?'
           }
           nameCell.classList.add('displayName')
